@@ -8,8 +8,7 @@
     <title>Gala darbs</title>
 
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    
  <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -20,52 +19,28 @@
   </head>
   <body>
     <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-2">
-			<img class="img-thumbnail" alt="logotips" src = "foto/1.jpg"/>
-		</div>
-		<div class="col-md-10">
-			<div class="page-header">
-				<h1>
-					Autotransports<small>   20. gadsimts </small>
-				</h1>
-			</div>
-			<ul class="nav nav-tabs">
-				  <li class="active"><a data-toggle="tab" href="#home">Sākums</a></li>
-				
-				<li><a data-toggle="tab" href="#menu2">Galerijas</a></li>
+	<div id="page-wrapper">
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Autotransports <span>20 gadsimta</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Sākums</a></li>
+							<li><a data-toggle="tab" href="#menu2">Galerijas</a></li>
 				<li><a data-toggle="tab" href="#menu3">Ieteikumi</a></li>
-				<li><a href="#register" data-toggle="modal">Reģistrācija</a></li>
-				<li><a href="#login" data-toggle="modal">Ieiet</a></li>
 				<li><a data-toggle="tab" href="#menu5">Kontakti</a></li>
-		</ul>		
-		</div>
-	</div>
+					<li><a href="#login" class="button special" data-toggle="modal">Ieiet</a></li>
+					<li><a href="#register" class="button special" data-toggle="modal">Reģistrācija</a></li>
+							
+						</ul>
+					</nav>
+				</header>
 	<div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>Sākums</h3>
-      <div class="col-md-6">
-			<h2>
-				Majas lapas apraksts
-			</h2>
-			<p>
-				Mājas lapa ir automobīļiem 20 gadismta
-	
-		</div> <div class="col-md-6">
-			<h2>
-				Intresanti fakti
-			</h2>
-			<p>
-............
+ <section class="wrapper style4 container">
 
-			</p>
-			
-		</div>  
-    </div>
-    
-    <div id="menu2" class="tab-pane fade">
-      <h3>Galerijas</h3>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<article id="main">
+								<div class="content">
+									<section>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -104,6 +79,68 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+										<header>
+											<h3>Automobīļi</h3>
+										</header>
+										<p>teksts</p>
+									</section>
+								</div>
+
+						</section>
+    <section class="wrapper style1 container special">
+							<div class="row">
+								<div class="4u 12u(narrower)">
+
+									<section>
+										<header>
+											<h3>Cadilliac Deville</h3>
+										</header>
+										<p>Automašina ar modificētam hidraulikām</p>
+										<footer>
+											<ul class="buttons">
+												<li><a href="#" class="button small">Lasīt vairak</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="4u 12u(narrower)">
+
+									<section>
+										<header>
+											<h3>Chevrolet Camaro</h3>
+										</header>
+										<p>1969 gada auto</p>
+										<footer>
+											<ul class="buttons">
+												<li><a href="#" class="button small">Lasīt vairak</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="4u 12u(narrower)">
+
+									<section>
+										<header>
+											<h3>BMW E36</h3>
+										</header>
+										<p>Viena no 90 gadu leģendām.</p>
+										<footer>
+											<ul class="buttons">
+												<li><a href="#" class="button small">Lasīt vairak</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+							</div>
+						</section>
+
+				</article>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Galerijas</h3>
+	
     </div>
     <div id="menu3" class="tab-pane fade">
       <h3>Ziņojums</h3>
@@ -287,19 +324,20 @@
 	
   <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-6">
-			
-			<p>
-			Sadaļā Reģistrācija nav iespējams reģistrēties
-			</p>
-			
-		</div>
-		<div class="col-md-6">
-			 
-			<address>
-				 <strong>Instagram, Google +</strong><br /> https://www.instagram.com/miks_miks_miks/<br /> https://plus.google.com/u/0/108886898681758246888/posts<br /> <abbr title="Phone">P:</abbr> (371) 123456
-			</address>
-		</div>
+		
+			<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					</ul>
+
+					
+
+				</footer>
 		
 		</div>
 	</div>
@@ -309,5 +347,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 	<script src="js/index.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </body>
 </html>
