@@ -7,17 +7,11 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+    <title>Gala darbs</title>
 
 
     
- <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-  </style>
+ 
   </head>
   <body>
     <div class="container-fluid">
@@ -28,7 +22,7 @@
 						<ul>
 							<li><a href="index.html">Sākums</a></li>
 							<li><a href="profils.html">profils</a></li>
-							<li><a href="kontakti.html">Kontaktēties</a></li>
+							<li class="current"><a href="kontakti.html">Kontaktēties</a></li>
 							<li><a href="#login" class="button special" data-toggle="modal">Ieiet</a></li>
 							<li><a href="#register" class="button special" data-toggle="modal">Reģistrācija</a></li>
 							
@@ -40,159 +34,51 @@
 
 								<article id="main">
 								<div class="content">
-									<section>
-										<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li> 
-	  <li data-target="#myCarousel" data-slide-to="4"></li>
-	  <li data-target="#myCarousel" data-slide-to="5"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="foto/t2.jpg" alt="Chania" width="460" height="345">
-      </div>
-
-      <div class="item">
-        <img src="foto/t3.jpg" alt="Chania" width="460" height="345">
-      </div>
+									
     
-      <div class="item">
-        <img src="foto/t4.jpg" alt="Flower" width="460" height="345">
-      </div>
+    <header class="special container">
+						<span class="icon fa-envelope"></span>
+						<h2>Ziņojums</h2>
+						<p>Ja Tev ir kads ietekums, tad atstāj savu ziņu šeit.</p>
+					</header>
 
-      <div class="item">
-        <img src="foto/t5.jpg" alt="Flower" width="460" height="345">
-      </div>
-	  <div class="item">
-        <img src="foto/t3.jpg" alt="Flower" width="460" height="345">
-      </div>
-    </div>
+					
+						<section class="wrapper style4 special container 75%">
 
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-    </div>
-										<header>
-											<h3>Automobīļi</h3>
-										</header>
-										<p>Automašīna jeb automobilis  ir ar riteņiem aprīkots bezsliežu transportlīdzeklis, ko uz priekšu dzen tajā iemontēts dzinējs. Paredzēts priekš pārvietošanās pa sauszemi. Izšķir vairākus automašīnu veidus, kā vieglie auto, autobusi, mikroautobusi, kravas auto. Automašīnās ir sēdeklis vadītājam, kā arī var būt sēdeklis vienam vai vairākiem pasažieriem. Ir dažādu marku automašīnas.</p>
-									</section>
+							
+								<div class="content">
+									<form>
+										<div class="row 50%">
+											<div class="6u 12u(mobile)">
+												<input type="text" name="Vārds" placeholder="Vārds" />
+											</div>
+											<div class="6u 12u(mobile)">
+												<input type="text" name="E-pasts" placeholder="E-pasts" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<input type="text" name="Tēma" placeholder="Tēma" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<textarea name="Vēstule" placeholder="Vēstule" rows="7"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<ul class="buttons">
+													<li><input type="submit" class="special" value="Nosūtīt" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
 								</div>
 
-						</section>
-    <section class="wrapper style1 container special">
-							<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<header>
-											<h3>Cadilliac Deville</h3>
-										</header>
-										<p>Automašina ar modificētam hidraulikām</p>
-										<footer>
-											<ul class="buttons">
-												<li><a href="https://en.wikipedia.org/wiki/Cadillac_de_Ville_series" class="button small">Lasīt vairak</a></li>
-											</ul>
-										</footer>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<header>
-											<h3>Chevrolet Camaro</h3>
-										</header>
-										<p>1969 gada auto</p>
-										<footer>
-											<ul class="buttons">
-												<li><a href="https://en.wikipedia.org/wiki/Chevrolet_Camaro_%28first_generation%29" class="button small">Lasīt vairak</a></li>
-											</ul>
-										</footer>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<header>
-											<h3>BMW E36</h3>
-										</header>
-										<p>Viena no 90 gadu leģendām.</p>
-										<footer>
-											<ul class="buttons">
-												<li><a href="https://en.wikipedia.org/wiki/BMW_3_Series_%28E36%29" class="button small">Lasīt vairak</a></li>
-											</ul>
-										</footer>
-									</section>
-
-								</div>
-							</div>
 						</section>
 
 				</article>
-
-    <div id="menu3" class="tab-pane fade">
-      <h3>Ziņojums</h3>
-	  	  <section id="contact">
-    <div id="contact-us" class="parallax">
-      <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Uzraksti man</h2>
-            <p>Ja tev ir kādi ieteikumi , lai uzlabotu manu majas lapu - tad raksti </p>
-          </div>
-        </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="row">
-            <div class="col-sm-6">
-              <form id="main-contact-form" name="contact-form" method="post" action="#">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" name="Vārds" class="form-control" placeholder="Vārds" required="required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="E-pasts" class="form-control" placeholder="E-pasts" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="Tema" class="form-control" placeholder="Tēma" required="required">
-                </div>
-                <div class="form-group">
-                  <textarea name="message" id="zinojums" class="form-control" rows="4" placeholder="ievadi tekstu" required="required"></textarea>
-                </div>                        
-                <div class="form-group">
-                  <button type="submit" class="btn-submit">Nostūtīt</button>
-                </div>
-              </form>   
-            </div>
-            <div class="col-sm-6">
-                <ul class="address">
-                  <li><i class="fa fa-map-marker"></i> <span> adrese:</span> Rigas Valsts Tehnikums </li>
-                  <li><i class="fa fa-phone"></i> <span> Tālrunis:</span> +371 123456  </li>
-                  <li><i class="fa fa-envelope"></i> <span> E-pasts*:</span><a href="mailto:vollenbergs@gmail.com"> vollenbergs@gmail.com</a></li>
-                  <li><i class="fa fa-globe"></i> <span> MajasLapa:</span> <a href="#">www.sitename.com</a></li>
-                </ul>
-                                          
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>        
-  </section>
   
     </div>
 
@@ -256,8 +142,7 @@
                             
                         </div>
                     </div>
-               
-			   
+                    
                     
                     
                     <div class="modal-footer">
@@ -269,7 +154,9 @@
             </div>
         </div>
     </div>
-	<div class="modal fade" id="login" role="dialog">
+    
+    
+    <div class="modal fade" id="login" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <form class="form-horizontal">
@@ -315,12 +202,7 @@
                 </form>
             </div>
         </div>
- 
-    
-	
-</div>
-    
-	
+    </div>
   <div class="container-fluid">
 	<div class="row">
 		
