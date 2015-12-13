@@ -34,30 +34,48 @@
 	<div class="tab-content">
  <section class="wrapper style4 container">
 
-<tr><td align=center class=outer style="padding-top: 20px; padding-bottom: 20px">
-<p><p><table class=main border=0 cellspacing=0 cellpadding=0><tr><td class=embedded><h1 style='margin:0px'>Lietotājs&nbsp;<td class=embedded> </td></h1></td></tr></table></p></p>
-<table class=main width=750 border=0 cellspacing=0 cellpadding=0><tr><td class=embedded>
-<table width=100% border=1 cellspacing=0 cellpadding=5>
-<tr><td class=rowhead width=1%>Mācās</td><td align=left width=99%>Skolā</td></tr>
-<tr><td class=rowhead>Pēdējo reizi redzēts skolā</td><td align=left>Šodien</td></tr>
-<tr><td class=rowhead>Grupa</td><td align=left>D3-3</td></tr>
-<tr><td class=rowhead>Kl.Audzinātāja</font></td><td class=tablea align=left>I.Stelmaka</td></tr><tr><td class=rowhead>Sekmīgs</font></td><td align=left><a title='šis lietotājs ir sekmīgs'><b><font color=green>Jā</a></font></b></td></tr><tr><td class=rowhead>Apeklētas stundas</td><td align=left>358;<b>[</b>8h / Dienā<b>]</b></td></tr>
-<tr><td class=rowhead>Neapmeklētas stundas</td><td align=left>135 <b>[</b>3h / Dienā<b>]</b></td></tr>
-<tr><td class=rowhead>Lietotāja attēls</td><td align=left><img src="http://www.icon2s.com/img256/256x256-black-white-android-user.png"></td></tr>
-<tr><td class=rowhead>Dzimums</td><td align=left>Vīrietis</td></tr>
-<td><font color=green><b>Jā</b></font></td>
-</tr>
-</table>
-</div></td></tr>
-</table>
-</td></tr></table>
-</td></tr></table>
-  <span class="smallfont"><font class="color-power">Nav ielūgumu</font><br><span class="smallfont"><img height="14px" style="border:none" alt="ienākošās" title="ienākošās" src="http://www.estmx.net/pic1/pn_inbox.gif"></a> 0</span><span class="smallfont"><img height="14px" style="border:none" alt="izsūtītās" title="izsūtītās" src="http://cyberfun-codex.googlecode.com/svn/TBDev/installer_v4_0/themes/TheWall/images/pn_inboxnew.gif"></a> 0</span>;
-	  
-</span>
-    </div>
+	<p>Miks Vollenbergs</p>
+	<P> Tālruņa nr:12345678 </p>
+	<p> Kurss : D3-3 </p>
+	<p>E-pasts: vollenbergs@gmail.com</p>
+<div class = "mape">	
+<p>Vieta Kur es mācos</p>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
 
-<div class="modal fade" id="register" role="dialog">
+<script>
+var myCenter=new google.maps.LatLng(56.9533384,24.1045134);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+</body>
+								
+ 
+    </div>
+ </section>
+<section class="modal fade" id="register" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <form class="form-horizontal">
@@ -128,6 +146,7 @@
                 </form>
             </div>
         </div>
+		</section>
     </div>
     
     
